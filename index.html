@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- início das configurações do documento -->
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Em breve</title>
+
+  <link rel="icon" href="favicon.png" type="image/png"/>
+
+  <link rel="stylesheet" href="style.css"/>
+
+  <!-- pré-conexão com google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <!-- navegacão fixa no topo -->
+  <nav id="navbar">
+    <div class="nav-top">
+      <div class="logo">
+        <img id="logo" src="logo.png" alt="Logo"/>
+      </div>
+      <button id="menu-toggle" class="menu-toggle" aria-label="abrir menu">☰</button>
+    </div>
+
+    <div class="nav-content">
+      <div class="menu">
+        <a href="#inicio">
+          <span class="icone">🏠</span>
+          <span class="label">Início</span>
+        </a>
+        <a href="#sobre">
+          <span class="icone">ℹ️</span>
+          <span class="label">Sobre</span>
+        </a>
+        <a href="#projetos">
+          <span class="icone">📁</span>
+          <span class="label">Projetos</span>
+        </a>
+        <a href="#contato">
+          <span class="icone">📞</span>
+          <span class="label">Contato</span>
+        </a>
+      </div>
+
+      <div class="search">
+        <input id="search-input" type="text" placeholder="Pesquisar..." disabled/>
+        <button id="search-button" disabled>Pesquisar</button>
+        <button id="prev-button" style="display:none;">Anterior</button>
+        <button id="next-button" style="display:none;">Próximo</button>
+        <span id="result-count" style="display:none;"></span>
+      </div>
+    </div>
+  </nav>
+
+  <main class="content">
+    <section id="inicio">
+      <h2>Início</h2>
+      <div class="em-breve">Em breve</div>
+    </section>
+
+    <section id="sobre">
+      <h2>Sobre</h2>
+      <div class="em-breve">Em breve</div>
+    </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+      <div class="em-breve">Em breve</div>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <div class="em-breve">Em breve</div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
